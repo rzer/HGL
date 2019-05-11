@@ -7,8 +7,8 @@ Based on heaps. Support only dynamic targets:
 
 ## TODO:
 	
-- [+] SD support for tiles from atlases
-- [+] MSDF Font
-- [+] TextStyle 
+- [x] SD support for tiles from atlases
+- [x] MSDF Font
+- [x] TextStyle 
 - [ ] Outline, glow, dropShadow
 - [ ] Support type effect without recalculate text field

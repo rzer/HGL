@@ -1,0 +1,9 @@
+-lib heaps
+-cp lib
+-cp test
+-main Main
+-swf-version 14
+-swf-header 1024:768:60:0
+-D native-trace
+
+-swf bin/HGL.swf

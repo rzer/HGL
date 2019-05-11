@@ -1,0 +1,46 @@
+{
+	"cow":{
+		
+		"type":"tile",
+		
+		"files":[
+			{"name":"image", "url":"cow.webp", "prefs":["js"]},
+			{"name":"image", "url":"cow_sd.png", "prefs":["js", "sd"]},
+			{"name":"image", "url":"cow.png", "prefs":["fl"]}
+		]
+		
+	},
+	
+	"fonts/arial":{
+		
+		"type":"acj",
+		
+		"files":[
+			{"name":"data", "url":"fonts/arial.json", "prefs":[]},
+			{"name":"image", "url":"fonts/arial.png", "prefs":[]}
+		]
+		
+	},
+	
+	"fonts/font":{
+		
+		"type":"hgf",
+		
+		"files":[
+			{"name":"data", "url":"fonts/font.hgf", "prefs":[]},
+			{"name":"image", "url":"fonts/font.png", "prefs":[]}
+		]
+		
+	},
+	
+	"world/tiles":{
+		
+		"type":"hga",
+		
+		"files":[
+			{"name":"image", "url":"world/tiles.png", "prefs":[]},
+			{"name":"image", "url":"world/tiles_sd.png", "prefs":["sd"]},
+			{"name":"data", "url":"world/tiles.hga", "prefs":[]}
+		]
+	}
+}

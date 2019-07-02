@@ -1,6 +1,11 @@
 package;
 
 import h2d.Bitmap;
+import h2d.Graphics;
+import h2d.Tile;
+import h3d.mat.Texture;
+import h3d.prim.Plane2D;
+import h3d.scene.Mesh;
 import hgl.assets.Assets;
 import hgl.assets.atlases.Atlas;
 import hgl.common.tasks.Task;
@@ -45,6 +50,11 @@ class MainScene extends Scene {
 		
 		tf.x = 300;
 		tf.y = 300;
+		
+		var g:Graphics;
+		
+	
+		
 	}
 	
 }

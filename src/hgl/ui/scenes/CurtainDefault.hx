@@ -37,7 +37,7 @@ class CurtainDefault extends Curtain {
     }
 	
 	private function updateProgress():Void {
-		tile.width = Math.round(task.progress * w);
+		//tile.width = Math.round(task.progress * w);
 	}
 	
 	public function changeAlpha(rate:Float, args:Array<Float>):Void{

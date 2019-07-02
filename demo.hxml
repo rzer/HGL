@@ -1,0 +1,20 @@
+
+-lib heaps
+-cp demo/src
+-cp src
+-main Main
+
+--each
+
+-D js-es=6
+-js bin/HGL.js
+
+--next
+
+-swf-version 14
+-swf-header 1024:768:60:0
+-D native-trace
+-swf bin/HGL.swf
+
+
+-cmd start http://localhost:2000

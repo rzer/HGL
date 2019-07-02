@@ -36,7 +36,7 @@ class Main extends hxd.App {
 		Assets.addType("hga", hgl.assets.atlases.tasks.LoadHGA.task);
 		Assets.addType("hgf", hgl.assets.fonts.tasks.LoadHGF.task);
 		
-  
+		
 		viewport = new Viewport(this);
 		viewport.init(0, 1280);
 		

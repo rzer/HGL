@@ -24,7 +24,7 @@ class OneSignal<T>{
 	private var p1:T;
 	
 	public function new() {
-	
+		
 	}
 	
 	public function add(handler:T->Void, callFirst:Bool = false):Void{

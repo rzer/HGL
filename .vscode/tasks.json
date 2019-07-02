@@ -4,6 +4,7 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+			"label": "build",
 			"type": "hxml",
 			"file": "demo.hxml",
 			"problemMatcher": [
@@ -12,11 +13,7 @@
 				"$haxe-error",
 				"$haxe-trace"
 			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
-			"dependsOn":["server"]
+			"group": "build"
 		},
 		{
             "label": "server",
@@ -25,7 +22,11 @@
 			"options": {
 				"cwd": "${workspaceFolder}/demo"
 			},
-            "group": "build"
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"dependsOn":["build"]
         }
 	]
 }

@@ -243,26 +243,26 @@ class Main extends hxd_App {
 	init() {
 		hgl_common_time_Ticker.init(30);
 		hgl_ui_utils_UI.debug = true;
+		var taskFactory = hgl_assets_tasks_LoadTile.task;
 		var _this = hgl_assets_Assets.types;
-		var value = hgl_assets_tasks_LoadTile.task;
 		if(__map_reserved["tile"] != null) {
-			_this.setReserved("tile",value);
+			_this.setReserved("tile",taskFactory);
 		} else {
-			_this.h["tile"] = value;
+			_this.h["tile"] = taskFactory;
 		}
+		var taskFactory1 = hgl_assets_atlases_tasks_LoadHGA.task;
 		var _this1 = hgl_assets_Assets.types;
-		var value1 = hgl_assets_atlases_tasks_LoadHGA.task;
 		if(__map_reserved["hga"] != null) {
-			_this1.setReserved("hga",value1);
+			_this1.setReserved("hga",taskFactory1);
 		} else {
-			_this1.h["hga"] = value1;
+			_this1.h["hga"] = taskFactory1;
 		}
+		var taskFactory2 = hgl_assets_fonts_tasks_LoadHGF.task;
 		var _this2 = hgl_assets_Assets.types;
-		var value2 = hgl_assets_fonts_tasks_LoadHGF.task;
 		if(__map_reserved["hgf"] != null) {
-			_this2.setReserved("hgf",value2);
+			_this2.setReserved("hgf",taskFactory2);
 		} else {
-			_this2.h["hgf"] = value2;
+			_this2.h["hgf"] = taskFactory2;
 		}
 		Main.viewport = new hgl_ui_core_Viewport(this);
 		Main.viewport.init(0,1280);
